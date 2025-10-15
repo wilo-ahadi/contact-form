@@ -1,12 +1,12 @@
 # Introduction
 
-Un formulaire de contact dans un site web fournis un interface à l'utilisateur pour envoyer une message mail à une adresse spécifique.
+Un formulaire de contact sur un site web permet à l’utilisateur d’envoyer un message par e-mail à une adresse spécifique à travers une interface simple et conviviale.
 
-Ce formulaire demande les informations suivantes à l'utilisateur :
+Ce type de formulaire demande généralement à l’utilisateur de renseigner les informations suivantes :
 
 - Nom
-- Adresse email
-- Sujet ou Objet du message
-- Message 
+- Adresse e-mail
+- Sujet (ou objet) du message
+- Contenu du message
 
-# Installation
+Ce dépôt met à disposition le code source complet d'un formulaire de contact, développé en HTML et stylisé avec Bootstrap CSS et JavaScript.
