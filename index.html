@@ -7,11 +7,11 @@
 </head>
 <body>
 
-	<form>
+	<form method="POST" action="#" >
 
 		<div class="mb-3">
 		
-			<label for="name" >Nom complet *</label>
+			<label for="name" class="form-label" >Nom complet *</label>
 
 			<input type="text" name="" id="name" class="form-control" placeholder="Votre nom complet ici" >
 
@@ -19,13 +19,19 @@
 
 		<div class="mb-3">
 		
-			<label for="message" >Message *</label>
+			<label for="email" class="form-label" >Adresse email *</label>
 
-			<select class="form-control" id="message" placeholder="Votre message ici" ></select>
+			<input type="email" name="" id="email" class="form-control" placeholder="Votre adresse email ici" >
 
 		</div>
 
+		<div class="mb-3">
+		
+			<label for="message" class="form-label" >Message *</label>
 
+			<textarea class="form-control" id="message" placeholder="Votre message ici" ></textarea>
+
+		</div>
 
 	</form>
 
